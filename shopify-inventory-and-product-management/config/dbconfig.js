@@ -1,6 +1,6 @@
 const { Sequelize } = require('sequelize');
 
-const sequelize = new Sequelize("publicshopifyapp", "root", "Amitpats#11", {
+const sequelize = new Sequelize("publicshopifyapp", "root", "<password>", {
   host: "localhost",
   dialect: "mysql",
   logging: false
